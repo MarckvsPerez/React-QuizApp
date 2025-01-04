@@ -7,7 +7,7 @@ function NextButton({ dispatch, answer, index, numQuestions }) {
         className="btn btn-ui"
         onClick={() => dispatch({ type: "nextQuestion" })}
       >
-        Next
+        Següent
       </button>
     );
 
@@ -17,7 +17,7 @@ function NextButton({ dispatch, answer, index, numQuestions }) {
         className="btn btn-ui"
         onClick={() => dispatch({ type: "finish" })}
       >
-        Finish
+        Finalitzar
       </button>
     );
 }

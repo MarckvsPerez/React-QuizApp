@@ -14,7 +14,7 @@ import Timer from "./Timer";
 import "../index.css";
 import questions from "../constants/questions.json";
 
-const SECS_PER_QUESTION = 5;
+const SECS_PER_QUESTION = 15;
 
 // We need to define the intialState in order to use useReduce Hook.
 const initialState = {

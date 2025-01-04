@@ -11,15 +11,29 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
   return (
     <div className="result_container">
       <p className="result">
-        <span>{emoji}</span> You scored <strong>{points}</strong> out of{" "}
+        <span>{emoji}</span> Has aconseguit <strong>{points}</strong> punts de{" "}
         {maxPossiblePoints} ({Math.ceil(percentage)}%)
       </p>
-      <p className="highscore">(Highscore: {highscore} points)</p>
+      {percentage === 100 && (
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <p className="highscore">Has guanyat! Aquí tens el teu regal:</p>
+          <a
+            href="https://drive.google.com/file/d/1-ljxv5lszNmFvjDHo2Jh4UZmD91OrUN8/view?usp=drive_link"
+            className="btn btn-ui"
+            style={{ marginBottom: "2rem", textDecoration: "none" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Descarregar Regal
+          </a>
+        </div>
+      )}
+      <p className="highscore">(Record: {highscore} punts)</p>
       <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "restart" })}
       >
-        Restart quiz
+        Tornar a jugar
       </button>
     </div>
   );
