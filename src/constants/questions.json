@@ -88,7 +88,7 @@
         "points": 10
     },
     {
-        "question": "Asigantura de la teva UNI que mai recordo que significa",
+        "question": "Assignatura de la teva UNI que mai recordo què significa",
         "options": [
             "COM COM",
             "Glamping",
@@ -99,12 +99,12 @@
         "points": 10
     },
     {
-        "question": "Mitja de transport que vam fer servir a Koln i que al principi no volies",
+        "question": "Mitjà de transport que vam fer servir a Köln i que al principi no volies",
         "options": [
             "Metro",
             "Bici",
             "Tren",
-            "Autobus"
+            "Autobús"
         ],
         "correctOption": 1,
         "points": 10
@@ -132,10 +132,10 @@
         "points": 10
     },
     {
-        "question": "Regal que li va fer el pau a la seva ex",
+        "question": "Regal que li va fer el Pau a la seva ex",
         "options": [
             "Flors",
-            "Canço de guitarra",
+            "Cançó de guitarra",
             "Llibre",
             "Poema"
         ],
