@@ -1,4 +1,4 @@
-import { useEffect, useReducer } from "react";
+import {  useReducer } from "react";
 
 import Header from "./Header";
 import Main from "./Main";
@@ -12,34 +12,24 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import "../index.css";
+import questions from "../constants/questions.json";
 
 const SECS_PER_QUESTION = 5;
 
 // We need to define the intialState in order to use useReduce Hook.
 const initialState = {
-  questions: [],
   // 'loading', 'error', 'ready', 'active', 'finished'
-  status: "loading",
   index: 0,
   answer: null,
   points: 0,
   highscore: 0,
   secondsRemaining: null,
+  questions,
+  status: "ready",
 };
 
 function reducer(state, action) {
   switch (action.type) {
-    case "dataReceived":
-      return {
-        ...state,
-        questions: action.payload,
-        status: "ready",
-      };
-    case "dataFailed":
-      return {
-        ...state,
-        status: "error",
-      };
     case "start":
       return {
         ...state,
@@ -98,18 +88,6 @@ export default function App() {
     (prev, cur) => prev + cur.points,
     0
   );
-
-  useEffect(function () {
-    fetch("https://vinayak9669.github.io/React_quiz_api/questions.json")
-      .then((res) => res.json())
-      .then((data) =>
-        dispatch({
-          type: "dataReceived",
-          payload: data["questions"],
-        })
-      )
-      .catch((err) => dispatch({ type: "dataFailed" }));
-  }, []);
 
   return (
     <div className="wrapper">

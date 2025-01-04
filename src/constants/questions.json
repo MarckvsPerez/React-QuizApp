@@ -1,0 +1,167 @@
+[
+    {
+        "question": "On ens vam veure per primer cop?",
+        "options": [
+            "A casa meva",
+            "Waka",
+            "Peluqueria de me mare",
+            "Al carrer"
+        ],
+        "correctOption": 2,
+        "points": 10
+    },
+    {
+        "question": "Lloc on ens vam donar el primer peto",
+        "options": [
+            "Waka",
+            "Centre",
+            "Chicago Latino",
+            "No ens vam donar cap"
+        ],
+        "correctOption": 0,
+        "points": 10
+    },
+    {
+        "question": "Primera cita",
+        "options": [
+            "Mirador",
+            "Sex toys center",
+            "Cine",
+            "Diagonal Mar"
+        ],
+        "correctOption": 1,
+        "points": 10
+    },
+    {
+        "question": "Primer viatge fora de Catalunya",
+        "options": [
+            "London",
+            "Koln",
+            "Andorra",
+            "Miami"
+        ],
+        "correctOption": 2,
+        "points": 10
+    },
+    {
+        "question": "Primer viatge a l'estranger",
+        "options": [
+            "London",
+            "Koln",
+            "Andorra",
+            "Miami"
+        ],
+        "correctOption": 0,
+        "points": 10
+    },
+    {
+        "question": "On et vaig fer una sorpresa per primer cop?",
+        "options": [
+            "A la feina",
+            "A casa",
+            "Mai m'has fet cap sorpresa",
+            "Estació del nord"
+        ],
+        "correctOption": 3,
+        "points": 10
+    },
+    {
+        "question": "Una pelicula que ens uneix",
+        "options": [
+            "21 blackjack",
+            "Spider-man",
+            "Green book",
+            "Cadena perpetua"
+        ],
+        "correctOption": 1,
+        "points": 10
+    },
+    {
+        "question": "Frase iconica de 21 blackjack",
+        "options": [
+            "I'm going to make you an offer you can't refuse",
+            "You're gonna need a bigger boat",
+            "Keep your friends close, but your enemies closer",
+            "Winner winner chicken dinner"
+        ],
+        "correctOption": 3,
+        "points": 10
+    },
+    {
+        "question": "Asigantura de la teva UNI que mai recordo que significa",
+        "options": [
+            "COM COM",
+            "Glamping",
+            "Cine",
+            "Web"
+        ],
+        "correctOption": 0,
+        "points": 10
+    },
+    {
+        "question": "Mitja de transport que vam fer servir a Koln i que al principi no volies",
+        "options": [
+            "Metro",
+            "Bici",
+            "Tren",
+            "Autobus"
+        ],
+        "correctOption": 1,
+        "points": 10
+    },
+    {
+        "question": "Nom que li volies posar al teu fill (espero que ja no)",
+        "options": [
+            "Eren",
+            "Armin",
+            "Jhon snow",
+            "Tobbie"
+        ],
+        "correctOption": 0,
+        "points": 10
+    },
+    {
+        "question": "Actor que et vaig ensenyar i et vas posar la seva foto a Twitter",
+        "options": [
+            "Tom Hardy",
+            "Jared Leto",
+            "Edward Norton",
+            "Tom Cruise"
+        ],
+        "correctOption": 2,
+        "points": 10
+    },
+    {
+        "question": "Regal que li va fer el pau a la seva ex",
+        "options": [
+            "Flors",
+            "Canço de guitarra",
+            "Llibre",
+            "Poema"
+        ],
+        "correctOption": 1,
+        "points": 10
+    },
+    {
+        "question": "Plat preferit per cuinar junts",
+        "options": [
+            "Pizza",
+            "Risotto",
+            "Sopa",
+            "Crepes"
+        ],
+        "correctOption": 1,
+        "points": 10
+    },
+    {
+        "question": "El nostre aniversari",
+        "options": [
+            "14 de febrer",
+            "14 de març",
+            "30 de setembre",
+            "20 de novembre"
+        ],
+        "correctOption": 2,
+        "points": 10
+    }
+]
